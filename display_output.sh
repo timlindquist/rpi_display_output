@@ -1,7 +1,7 @@
 #!/bin/bash
 
 tvservice -n | grep "device_name" &> /dev/null
-if [ $? == 0]; then           #HDMI connected
+if [ $? == 0 ]; then           #HDMI connected
   echo "HDMI Connected"
   sudo cat /boot/config.txt | grep "ignore_lcd=1" &> /dev/null
   if [ $? != 0 ]; then        #write ignore_lcd=1 and reboot

@@ -1,5 +1,5 @@
 This code will is made and tested for the Raspberry Pi 3 but should work on any of the Pi's. 
-The use is for Pi's that have a 7inch touch screen or any other "non-HDMI" output device.
+The use is for Pi's that have a 7inch touch screen output device.
 The code will select HDMI as the output if its available otherwise the other screen will work. 
 
 steps to set it up on the pi
